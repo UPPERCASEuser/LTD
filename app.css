@@ -5,6 +5,7 @@
 
 
 .preview-2nSL_2 + .marginTop40-i-78cZ .cardPrimaryEditable-3KtE4g:first-child .title-3BE6m5::after{
-    content: "Disabled because your theme doesn't support light theme";
+    content: " Disabled because your theme doesn't support light theme";
     color: #f00;
+    font-style: italic;
 }
