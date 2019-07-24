@@ -111,7 +111,6 @@ p, .code{
     animation: fade 1s;
 }
 
-footer{
-  display: table-cell;
-  vertical-align: bottom;
+img{
+    box-shadow: 0 10px 10px 0px #777;
 }
