@@ -1,3 +1,5 @@
+
+
 .preview-2nSL_2 + .marginTop40-i-78cZ .cardPrimaryEditable-3KtE4g:first-child{
     pointer-events: none;
     opacity: .6;
@@ -8,4 +10,37 @@
     content: " Disabled because your theme doesn't support light theme";
     color: #f00;
     font-style: italic;
+}
+
+.theme-light:not([aria-label="USER_SETTINGS"]) .chat-3bRxxu::before{
+    all:unset !important;
+    content: "Please disable light theme.\aYour theme doesn't support light theme" !important;
+    color: #fff !important;
+    font-weight: 500 !important;
+    white-space: pre !important;
+    font-size: 25px !important;
+    line-height: 30px !important;
+    text-align: center !important;
+    background-color: #000 !important;
+    padding: 0 !important;
+    padding-top: calc(50vh - 40px) !important;
+    margin: 0 !important;
+    display: inline !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    position: fixed !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    top: 0 !important;
+    right: 0 !important;
+    z-index: 1 !important;
+    pointer-events: none !important;
+    transform: none !important;
+    max-height: unset !important;
+    max-width: unset !important;
+}
+
+[aria-label="USER_SETTINGS"]{
+    z-index: 9999 !important;
+    pointer-events: visible !important;
 }
