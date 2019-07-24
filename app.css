@@ -1,10 +1,10 @@
 :root{
-    --opt-text: " Disabled because your theme doesn't support light theme" !important;
-    --opt-text-color: #f00 !important;
-    --opt-opacity: .6 !important;
-    --disabler-text: "Please disable light theme.\aYour theme doesn't support light theme" !important;
-    --disabler-bg: #000 !important;
-    --disabler-color: #fff !important;
+    --opt-text: " Disabled because your theme doesn't support light theme";
+    --opt-text-color: #f00;
+    --opt-opacity: .6;
+    --disabler-text: "Please disable light theme.\aYour theme doesn't support light theme";
+    --disabler-bg: #000;
+    --disabler-color: #fff;
 }
 
 .preview-2nSL_2 + .marginTop40-i-78cZ .cardPrimaryEditable-3KtE4g:first-child{
