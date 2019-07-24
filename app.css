@@ -2,3 +2,9 @@
     pointer-events: none;
     opacity: .6;
 }
+
+
+.preview-2nSL_2 + .marginTop40-i-78cZ .cardPrimaryEditable-3KtE4g:first-child .info-3LOr12::after{
+    content: "Disabled because your theme doesn't support light theme";
+    color: #f00;
+}
