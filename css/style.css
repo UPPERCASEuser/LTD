@@ -1,0 +1,117 @@
+@keyframes fade{
+    from{
+        opacity: 0;
+        transform: translateY(-3em);
+    } to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+*{
+    font-family: 'Titillium Web', sans-serif;
+    background: transparent;
+}
+body{
+    margin: 0;
+}
+.header{
+    background: #ddd;
+    height: 3em;
+    position: relative;
+    animation: fade 1s;
+    font-size: 24px;
+    padding: 5px;
+}
+.vertical{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.horizontal{
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.vertical.horizontal{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.body{
+    padding: 8px;
+}
+.header:hover .normal-title{
+    display: none;
+}
+.header:hover .hover-title{
+    display: block;
+}
+.header .hover-title{
+    display: none;
+}
+
+.body span{
+    animation: fade 1s;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.material-icons{
+    font-size: 100px !important;
+    pointer-events: none;
+    margin-bottom: .5em;
+    transition: font-size 1s;
+}
+
+.item{
+    width: 15em;
+    background: #ccc;
+    box-shadow: 0 10px 10px 0px #777;
+    border-top: 5px solid #aaa;
+    display: inline-block;
+    margin: 0 10px;
+    animation: fade 1s;
+    transition: all .5s;
+}
+
+.item:hover{
+    width: 20em;
+}
+
+.itens:hover .item:not(:hover){
+    width: 10em;
+    filter: blur(1px);
+    opacity: .7;
+}
+
+.body b{
+    transition: all 250ms;
+}
+
+.body b:hover{
+    color: #fff;
+    background: #000;
+}
+
+p, .code{
+    animation: fade 1s;
+}
+
+footer{
+  display: table-cell;
+  vertical-align: bottom;
+}
