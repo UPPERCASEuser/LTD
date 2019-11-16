@@ -1,14 +1,5 @@
 :root{
-    --opt-text: " Disabled because your theme doesn't support light theme";
-    --opt-text-color: #f00;
-    --opt-opacity: .6;
-    --disabler-text: "Please disable light theme.\aYour theme doesn't support light theme";
-    --disabler-bg: #000;
-    --disabler-color: #fff;
-}
-
-:root{
-    --disabler-text: "Please disable light theme.\a Bash doesn't support light theme";
+    --disabler-text: "Please disable light theme.\a Your Theme doesn't support light theme";
     --disabler-bg: #000;
     --disabler-color: #fff;
     --warning-color: #f04747;
