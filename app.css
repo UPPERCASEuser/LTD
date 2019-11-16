@@ -34,6 +34,7 @@
 .theme-light .button-14-BFJ.da-button.enabled-2cQ-u7.da-enabled.button-38aScr.da-button.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN.da-grow:nth-child(3){
     border: dashed 2px;
     border-color: var(--warning-color);
+    z-index: 9999999999999999999999;
 }
 
 .theme-light:not([aria-label="USER_SETTINGS"]) .chat-3bRxxu::before{
