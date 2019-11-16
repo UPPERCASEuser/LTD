@@ -7,13 +7,13 @@
     --disabler-color: #fff;
 }
 
-.preview-2nSL_2 + .marginTop40-i-78cZ .cardPrimaryEditable-3KtE4g:last-child{
+.preview-2nSL_2 + .marginTop40-i-78cZ .cardPrimaryEditable-3KtE4g:nth-child(2){
     pointer-events: none;
     opacity: var(--opt-opacity);
 }
 
 
-.preview-2nSL_2 + .marginTop40-i-78cZ .cardPrimaryEditable-3KtE4g:last-child .title-3BE6m5::after{
+.preview-2nSL_2 + .marginTop40-i-78cZ .cardPrimaryEditable-3KtE4g:nth-child(2) .title-3BE6m5::after{
     content: var(--opt-text);
     color: var(--opt-text-color);
     font-style: italic;
