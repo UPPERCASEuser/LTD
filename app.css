@@ -7,16 +7,42 @@
     --disabler-color: #fff;
 }
 
+:root{
+    --disabler-text: "Please disable light theme.\a Bash doesn't support light theme";
+    --disabler-bg: #000;
+    --disabler-color: #fff;
+    --warning-color: #f04747;
+}
+
 .preview-2nSL_2 + .marginTop40-i-78cZ .cardPrimaryEditable-3KtE4g:nth-child(2){
-    pointer-events: none;
-    opacity: var(--opt-opacity);
+    display: none;
 }
 
 
-.preview-2nSL_2 + .marginTop40-i-78cZ .cardPrimaryEditable-3KtE4g:nth-child(2) .title-3BE6m5::after{
-    content: var(--opt-text);
-    color: var(--opt-text-color);
-    font-style: italic;
+.theme-dark .preview-2nSL_2 + .marginTop40-i-78cZ{
+    display: none;
+}
+
+.theme-light .side-8zPYf6 .item-PXvHYJ:nth-child(19){
+    border: dashed 2px;
+    border-color: var(--warning-color);
+    color: var(--warning-color);
+}
+
+.theme-light .preview-2nSL_2 + .marginTop40-i-78cZ .cardPrimaryEditable-3KtE4g:nth-child(1){
+    border: dashed 2px;
+    border-color: #fff;
+    background: var(--warning-color);
+    color: #fff
+}
+
+.theme-light [name="Gear"] path{
+    fill: var(--warning-color);
+}
+
+.theme-light .button-14-BFJ.da-button.enabled-2cQ-u7.da-enabled.button-38aScr.da-button.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN.da-grow:nth-child(3){
+    border: dashed 2px;
+    border-color: var(--warning-color);
 }
 
 .theme-light:not([aria-label="USER_SETTINGS"]) .chat-3bRxxu::before{
