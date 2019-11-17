@@ -66,6 +66,6 @@
 }
 
 [aria-label="USER_SETTINGS"]{
-    z-index: 9999 !important;
+    z-index: 4 !important;
     pointer-events: visible !important;
 }
