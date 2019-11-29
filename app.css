@@ -3,6 +3,8 @@
     --disabler-bg: #000;
     --disabler-color: #fff;
     --warning-color: #f04747;
+    --alert-color: #faa61a;
+    --alert-message: "Not supported for your actual theme. Please disable it";
 }
 
 .preview-2nSL_2 + .marginTop40-i-78cZ .cardPrimaryEditable-3KtE4g:nth-child(2){
@@ -14,7 +16,7 @@
     display: none;
 }
 
-.theme-light .side-8zPYf6 .item-PXvHYJ:nth-child(19){
+.theme-light .side-8zPYf6 .item-PXvHYJ:nth-last-child(11){
     border: dashed 2px;
     border-color: var(--warning-color);
     color: var(--warning-color);
@@ -68,4 +70,16 @@
 .theme-light [aria-label="USER_SETTINGS"]{
     z-index: 9999999 !important;
     pointer-events: visible !important;
+}
+
+.radioGroup-1GBvlr + .marginTop8-1DLZ1n .valueChecked-m-4IJZ{
+    background: var(--warning-color);
+}
+
+[data-name="TimedLightDarkMode"] .bda-header-title::after{
+    content: var(--alert-message);
+    color: var(--alert-color);
+    font-weight: 500;
+    padding-left: 6px;
+    font-style: italic;
 }
