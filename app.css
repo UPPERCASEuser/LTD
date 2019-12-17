@@ -60,7 +60,7 @@
     bottom: 0 !important;
     top: 0 !important;
     right: 0 !important;
-    z-index: 1 !important;
+    z-index: 9999998 !important;
     pointer-events: none !important;
     transform: none !important;
     max-height: unset !important;
@@ -68,7 +68,7 @@
 }
 
 .theme-light [aria-label="USER_SETTINGS"]{
-    z-index: 9999999 !important;
+    z-index: 999 !important;
     pointer-events: visible !important;
 }
 
