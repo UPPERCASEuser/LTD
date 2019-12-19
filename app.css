@@ -15,13 +15,13 @@
 .theme-dark .preview-2nSL_2 + .marginTop40-i-78cZ{
     display: none;
 }
-
+/* (Disabled because its a garbage and powercord breaks it)
 .theme-light .side-8zPYf6 .item-PXvHYJ:nth-last-child(11){
     border: dashed 2px;
     border-color: var(--warning-color);
     color: var(--warning-color);
 }
-
+*/
 .theme-light .preview-2nSL_2 + .marginTop40-i-78cZ .cardPrimaryEditable-3KtE4g:nth-child(1){
     border: dashed 2px;
     border-color: #fff;
