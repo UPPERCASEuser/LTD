@@ -68,7 +68,7 @@
 }
 
 .theme-light [aria-label="USER_SETTINGS"]{
-    z-index: 999 !important;
+    z-index: 9999999 !important;
     pointer-events: visible !important;
 }
 
